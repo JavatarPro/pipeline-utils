@@ -41,7 +41,7 @@ class Npm implements Serializable {
 
     String moduleRepository
 
-    int buildTimeoutInMinutes = 5
+    int buildTimeoutInMinutes = 10
 
     String getNpmVersion() {
         return npmVersion
